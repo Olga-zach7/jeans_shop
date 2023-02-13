@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="icon" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jeanspage.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="index.html">
+            <img src="favicon.png" alt="logo" height="40" />
+            
+          </a>
+          <a class="navbar-brand" href="index.html">
+            <p class="logo-text">Fashion Design</p>
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav my-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Акции</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Каталог
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Платья</a></li>
+                  <li><a class="dropdown-item" href="#">Джинсы</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Кепки</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Контакты</a>
+              </li>
+            </ul>
+            
+            <a href="index.html" class="btn btn-outline-primary">На главную</a>
+          </div>
+        </div>
+      </nav>
+</header>
+
+    <main>
+        <div class="container mt-4">
+            <div class="photo">
+                <img src="assets/abonent.jpg" class="photo" alt="аватарка">
+            </div>
+            <div class="name">
+                <p>Имя Фамилия</p>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <p class="warning">Вы не вошли в аккаунт</p>
+            <p class="warning">Войдите или зарегистрируйтесь:</p>
+            <form action="index.html">
+                <div class="row g-3 mb-3">
+
+                    <div class="col-md-12 mt-4">
+                        <label  class="form-label" for="email">Почта</label>
+                        <input class="form-control" type="email" id="email" placeholder="email@example.com"/>
+                    </div>
+                    <div class="col-md-12 mt-4">
+                        <label  class="form-label" for="password">Пароль</label>
+                        <input class="form-control" type="password" id="password" placeholder="Введите пароль"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Забыли пароль? <a href="#">Восстановить</a></p>
+                        <p>Нет аккаунта? <a href="register.html">Зарегистрироваться</a></p>
+                    </div>
+                </div>
+                <div class="row g-3 mb-5">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary w-100">
+                            Войти  
+                        </button>
+                    </div>
+
+                  </div>
+            </form>
+        </div>
+    </main>
+    
+
+    <footer class="footer">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2">Главная</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2">Акции</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2">Контакты</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2">Отзывы</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2">О нас</a></li>
+      </ul>
+      <p class="text-center">© 2022 Fashion Design. All rights reserved. Powered by Olga Zachinyaeva.</p>
+    </footer>
+    
+  </body>
+  </html>
